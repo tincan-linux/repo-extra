@@ -1,0 +1,22 @@
+#!/bin/sh -e
+
+./configure \
+    --prefix=/usr \
+    --disable-doc \
+    --disable-nls
+
+make
+make DESTDIR="$1" install
+
+# Link the binaries statically
+cd src
+rm -f xz/xz lzmainfo/lzmainfo xzdec/lzmadec xzdec/xzdec
+
+make LDFLAGS="$LDFLAGS -all-static" -C xz
+make LDFLAGS="$LDFLAGS -all-static" -C lzmainfo
+make LDFLAGS="$LDFLAGS -all-static" -C xzdec
+
+for bin in xz/xz lzmainfo/lzmainfo xzdec/lzmadec xzdec/xzdec; do
+    cp "$bin" "$1/usr/bin"
+    chmod 755 "$1/usr/bin/${bin##*/}"
+done

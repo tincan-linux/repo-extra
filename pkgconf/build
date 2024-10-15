@@ -1,0 +1,13 @@
+#!/bin/sh -e
+
+./configure \
+    --prefix=/usr \
+    --sysconfdir=/etc
+
+make
+make DESTDIR=$1 install
+
+ln -sv pkgconf $1/usr/bin/pkg-config
+ln -sv pkgconf.1 $1/usr/share/man/man1/pkg-config.1
+
+rm -rf $1/usr/share/doc

@@ -1,0 +1,9 @@
+[meta]
+version = "6.5"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://invisible-mirror.net/archives/ncurses/ncurses-6.5.tar.gz"]
+checksums = ["ed80506d81b59b960497a758a2c50e65ed167dcf658c21a4bc6c66146b68be26"]
+
+[deps]
+
+[mkdeps]
