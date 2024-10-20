@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+make PREFIX=/usr
+make PREFIX=/usr DESTDIR=$1 install
+
+mkdir -p $1/usr/bin
+"${CC:-gcc}" -static $LDFLAGS $CFLAGS $CPPFLAGS -o $1/usr/bin/libudev-zero-helper contrib/helper.c

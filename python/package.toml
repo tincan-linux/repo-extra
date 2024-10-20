@@ -1,0 +1,14 @@
+[meta]
+version = "3.13.0"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://www.python.org/ftp/python/3.13.0/Python-3.13.0.tar.xz"]
+checksums = ["0f0ddc22182b6bd7bcba51e4f4128fef7b330428aa5d4b150d7b34c343d68b4c"]
+
+[deps]
+expat = "*"
+libffi = "*"
+ncurses = "*"
+openssl = "*"
+sqlite = "*"
+
+[mkdeps]

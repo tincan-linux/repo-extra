@@ -1,0 +1,9 @@
+[meta]
+version = "2.6.3"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/libexpat/libexpat/releases/download/R_2_6_3/expat-2.6.3.tar.bz2"]
+checksums = ["253e03c7042908c2c4c84fb4917a01203ad403fa09320f44cca5fa017064c403"]
+
+[deps]
+
+[mkdeps]

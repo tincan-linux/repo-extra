@@ -1,0 +1,10 @@
+[meta]
+version = "4.2"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/dosfstools/dosfstools/releases/download/v4.2/dosfstools-4.2.tar.gz"]
+checksums = ["29996284e862ae2a12988fc0cc8f02304f9aaebe583a8c51c8d0a11401001611"]
+
+[deps]
+
+[mkdeps]
+

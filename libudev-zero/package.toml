@@ -1,0 +1,10 @@
+[meta]
+version = "1.0.3"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/illiliti/libudev-zero/archive/1.0.3.tar.gz"]
+checksums = ["541472ce66e99b1dc6021eb7aca64a2fde9d0b871ac3c817dd1c4e53e2318830"]
+
+[deps]
+
+[mkdeps]
+

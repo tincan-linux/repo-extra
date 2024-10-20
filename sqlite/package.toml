@@ -1,0 +1,9 @@
+[meta]
+version = "3.46.1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://sqlite.org/2024/sqlite-autoconf-3460100.tar.gz"]
+checksums = ["023516a598e6109db5002f3a8f452d9cc5e496e200c40881d3bc70d8d7415448"]
+
+[deps]
+
+[mkdeps]

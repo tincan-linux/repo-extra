@@ -1,0 +1,9 @@
+[meta]
+version = "3.4.6"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/libffi/libffi/releases/download/v3.4.6/libffi-3.4.6.tar.gz"]
+checksums = ["c7d7a36b1dad81ff39ca53f3a11c3e01450dfb2d787e05ca60cfe1b4b6491759"]
+
+[deps]
+
+[mkdeps]
