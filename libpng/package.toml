@@ -1,0 +1,17 @@
+[meta]
+version = "1.6.44"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+
+sources = [
+    "https://downloads.sourceforge.net/libpng/libpng-1.6.44.tar.xz",
+    "files/libpng-1.6.44-apng.patch"
+]
+
+checksums = [
+    "faf824b63dc4f6cafa0fa9ee1936aa9b1977af5e03e2edc343aa88f0dd9afc7b",
+    "a2d680821db64bc8f8c9bcddb2d8d58c8286ebdce3fb70ef36253ebb3d5a3615",
+]
+
+[deps]
+
+[mkdeps]

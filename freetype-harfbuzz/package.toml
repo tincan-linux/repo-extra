@@ -1,0 +1,20 @@
+[meta]
+version = "2.13.3+10.0.1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+
+sources = [
+    "tar+https://download-mirror.savannah.gnu.org/releases/freetype/freetype-2.13.3.tar.xz",
+    "tar+https://github.com/harfbuzz/harfbuzz/releases/download/10.0.1/harfbuzz-10.0.1.tar.xz",
+]
+
+checksums = [
+    "07a01894ccdb584943ce817b57341a8595ce9a92bfaa77c602ec4757dfabd5e2",
+    "718b9d4b0a74577f80d30b662d197aad74b58b49cc42b2902a23f051586192ea",
+]
+
+[deps]
+libpng = "*"
+
+[mkdeps]
+meson = "*"
+pkgconf = "*"

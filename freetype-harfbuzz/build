@@ -1,0 +1,55 @@
+#!/bin/sh -e
+
+export DESTDIR="$1"
+
+mkdir -pv freetype
+mkdir -pv harfbuzz
+
+tar xf freetype-*.tar.* -C freetype --strip-components=1
+tar xf harfbuzz-*.tar.* -C harfbuzz --strip-components=1
+
+build_freetype() (
+    cd freetype
+
+    meson setup \
+        -Dprefix=/usr \
+        -Ddefault_library=both \
+        -Dbzip2=disabled \
+        -Dzlib=disabled \
+        "$@" \
+        output
+
+    ninja -C output
+    ninja -C output install
+)
+
+build_harfbuzz() (
+    cd harfbuzz
+
+    meson setup \
+        -Dprefix=/usr \
+        -Ddefault_library=both \
+        -Dglib=disabled \
+        -Dfreetype=enabled \
+        -Dgobject=disabled \
+        -Dcairo=disabled \
+        -Dicu=disabled \
+        -Dbenchmark=disabled \
+        -Dtests=disabled \
+        output
+
+    ninja -C output
+    ninja -C output install
+)
+
+# Point Freetype to the Harfbuzz files.
+export CPPFLAGS="$CPPFLAGS -I$DESTDIR/usr/include/harfbuzz"
+export LDFLAGS="$LDFLAGS -L$DESTDIR/usr/lib"
+export PKG_CONFIG_PATH="$DESTDIR/usr/lib/pkgconfig"
+
+# Point Harfbuzz to the Freetype files.
+export CPPFLAGS="$CPPFLAGS -I$DESTDIR/usr/include/freetype2"
+
+build_freetype -Dharfbuzz=disabled
+build_harfbuzz
+build_freetype -Dharfbuzz=enabled --reconfigure

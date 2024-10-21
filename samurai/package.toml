@@ -1,0 +1,9 @@
+[meta]
+version = "1.2"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/michaelforney/samurai/releases/download/1.2/samurai-1.2.tar.gz"]
+chemksums = ["9f0315f1f6e123eb32c8cdb5fe98bcca1f1d2f4ca2617675476568cf3ddc07da"]
+
+[deps]
+
+[mkdeps]
