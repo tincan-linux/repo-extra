@@ -9,3 +9,4 @@ python = "*"
 samurai = "*"
 
 [mkdeps]
+python-setuptools = "*"

@@ -1,0 +1,10 @@
+[meta]
+version = "75.2.0"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://pypi.io/packages/source/s/setuptools/setuptools-75.2.0.tar.gz"]
+checksums = ["5662dd6cf2feb9b70fcce4a8f104202a2b0273630f2f2aac8e13aef5b8c36c72"]
+
+[deps]
+python = "*"
+
+[mkdeps]
