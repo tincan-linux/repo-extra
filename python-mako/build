@@ -1,0 +1,4 @@
+#!/bin/sh -e
+
+pip3 wheel -w dist --no-build-isolation --no-deps --no-cache-dir $PWD
+pip3 install --no-index --find-links=dist --no-cache-dir --prefix=/usr --root=$1 --no-user Mako
