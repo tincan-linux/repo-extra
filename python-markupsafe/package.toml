@@ -1,0 +1,11 @@
+[meta]
+version = "3.0.2"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/pallets/markupsafe/archive/refs/tags/3.0.2.tar.gz"]
+checksums = ["56156c5834c633b728c095b054908b20fc0132679e25df41e0be2c29c41b5be4"]
+
+[deps]
+python = "*"
+
+[mkdeps]
+python-setuptools = "*"
