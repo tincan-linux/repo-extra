@@ -1,8 +1,8 @@
 [meta]
-version = ""
-maintainer = ""
-sources = []
-checksums = []
+version = "0.3.2"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/illiliti/ssu/archive/refs/tags/0.3.2.tar.gz"]
+checksums = ["e603a1923ec9b636b948a11493a559817f8c3a94b480c8924a25acce760c4bf6"]
 
 [deps]
 
