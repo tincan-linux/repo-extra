@@ -1,9 +1,0 @@
-[meta]
-version = "5.6.3"
-maintainer = "AVS Origami <avs.origami@gmail.com"
-sources = ["https://excellmedia.dl.sourceforge.net/project/lzmautils/xz-5.6.3.tar.gz"]
-checksums = ["7415d68cad3058c173f9e94ce7e047a2e7937d4598966d98a1b65ccdfe8986cb"]
-
-[deps]
-
-[mkdeps]
