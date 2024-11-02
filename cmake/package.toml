@@ -1,0 +1,11 @@
+[meta]
+version = "3.30.5"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://cmake.org/files/v3.30/cmake-3.30.5.tar.gz"]
+checksums = ["dff743f60383aec9db52e756a9eaca8e137a50572b7cc7fa569e6b149f3da5f5"]
+
+[deps]
+curl = "*"
+expat = "*"
+
+[mkdeps]

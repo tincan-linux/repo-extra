@@ -1,0 +1,11 @@
+[meta]
+version = "3.0.1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://downloads.sourceforge.net/libjpeg-turbo/libjpeg-turbo-3.0.1.tar.gz"]
+checksums = ["ef4b42c9ec87947e6907307d247818f889f9aa6602662f922c548cb7e61fdfee"]
+
+[deps]
+
+[mkdeps]
+cmake = "*"
+nasm = "*"

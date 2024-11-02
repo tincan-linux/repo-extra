@@ -1,0 +1,12 @@
+#!/bin/sh -e
+
+./configure \
+    --prefix=/usr \
+    --system-curl \
+    --system-expat \
+    --system-zlib \
+    --parallel="$(grep -scF 'core id' /proc/cpuinfo)" -- \
+    -DBUILD_CursesDialog=OFF
+
+make
+make DESTDIR="$1" install
