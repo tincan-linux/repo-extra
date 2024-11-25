@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /usr/bin/sshd -D > /run/log/sshd 2>&1

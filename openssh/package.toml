@@ -1,0 +1,20 @@
+[meta]
+version = "9.9p1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+
+sources = [
+    "https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-9.9p1.tar.gz",
+    "files/sshd.run",
+    "files/musl-btmp.patch",
+]
+
+checksums = [
+    "4cb4d97b991b5593df23d723d455d89e86608df39454d6a734bbf06478130984",
+    "0bd628957d5c96bf04b46e45ef1b4efaccbb6c019e15ee93d7556f2592df177f",
+    "32d3653c6613f7f9eb6f1f3dd2405edecf4970c0be27a2d3ba75f8ede24d28e8",
+]
+
+[deps]
+openssl = "*"
+
+[mkdeps]
