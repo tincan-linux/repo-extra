@@ -1,0 +1,34 @@
+#!/bin/sh -e
+
+patch -p1 < musl-btmp.patch
+
+export CFLAGS="$CFLAGS -Wno-error=incompatible-pointer-types"
+
+./configure \
+    --prefix=/usr \
+    --datadir=/usr/share/openssh \
+    --sysconfdir=/etc/ssh \
+    --sbindir=/usr/bin \
+    --libexecdir=/usr/lib/openssh \
+    --without-selinux \
+    --without-zlib-version-check \
+    --with-privsep-user=nobody \
+    --with-mantype=doc \
+    --without-rpath \
+    --disable-strip \
+    --with-ssl-engine \
+    --with-pid-dir=/run \
+    --disable-utmp \
+    --disable-wtmp \
+    --disable-security-key
+
+make
+make DESTDIR=$1 install
+
+cp -v contrib/ssh-copy-id $1/usr/bin
+cp -v contrib/ssh-copy-id.1 $1/usr/share/man/man1
+chmod +x $1/usr/bin/ssh-copy-id
+
+mkdir -pv $1/etc/sv/sshd
+cp -v sshd.run $1/etc/sv/sshd/run
+ln -sv /run/runit/supervise.sshd $1/etc/sv/sshd/supervise
