@@ -1,0 +1,11 @@
+[meta]
+version = "2.43"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/data/xkeyboard-config/xkeyboard-config-2.43.tar.xz"]
+checksums = ["f8602628ce669ba7d18cb4c754a19b77344a1742dfd4fd979cc8e0723a6548e0"]
+
+[deps]
+compose-tables = "*"
+
+[mkdeps]
+meson = "*"

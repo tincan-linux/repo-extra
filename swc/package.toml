@@ -1,0 +1,17 @@
+[meta]
+version = "19893a5c"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/michaelforney/swc/archive/19893a5ca3239082b904a04fdb9ac7c3a1fb62e2.tar.gz"]
+checksums = ["05869c5463a44df6647a6fa94f83f2b0e701d3ade3a893d4e2be1378b93b8bde"]
+
+[deps]
+libdrm = "*"
+libinput = "*"
+libudev-zero = "*"
+libxkbcommon = "*"
+pixman = "*"
+wayland = "*"
+wayland-protocols = "*"
+wld = "*"
+
+[mkdeps]

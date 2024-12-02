@@ -1,0 +1,11 @@
+[meta]
+version = "1.13.3"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://freedesktop.org/software/libevdev/libevdev-1.13.3.tar.xz"]
+checksums = ["7154159ecc390d8ebda7f8b95ecf02acd86fc5ddce072020d6e84de142614ae1"]
+
+[deps]
+
+[mkdeps]
+meson = "*"
+python = "*"

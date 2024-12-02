@@ -1,0 +1,12 @@
+#!/bin/sh -e
+
+export TARGET=framebuffer
+export INSTALL='/bin/install'
+export PREFIX=/usr
+
+make
+
+sed -i 's/$(Q)$(INSTALL) -T/$(Q)$(INSTALL)/g' netsurf/frontends/framebuffer/Makefile
+sed -i 's/$(Q)$(INSTALL) -m 644 -T/$(Q)$(INSTALL) -m 644/g' netsurf/frontends/framebuffer/Makefile
+
+make DESTDIR=$1 install

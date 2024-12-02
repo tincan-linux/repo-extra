@@ -1,0 +1,17 @@
+[meta]
+version = "1.8.10"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+
+sources = [
+    "https://x.org/releases/individual/lib/libX11-1.8.10.tar.xz",
+    "files/compose-only.patch",
+]
+
+checksums = [
+    "0cdd01aab2049f74d139146f3f517d334db4d61fde27f3902a8930ccf01feff4",
+    "4b18926ed4fbc5948e8f891c58db8e60fc41b22a22bd23d13c570aef7457f626",
+]
+
+[deps]
+
+[mkdeps]

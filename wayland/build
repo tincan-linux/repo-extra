@@ -1,0 +1,15 @@
+#!/bin/sh -e
+
+mkdir -pv build
+
+meson setup \
+    -Dprefix=/usr \
+    -Ddefault_library=both \
+    -Dbuildtype=release \
+    -Dtests=false \
+    -Ddocumentation=false \
+    -Ddtd_validation=false \
+    build
+
+ninja -C build
+DESTDIR=$1 ninja -C build install

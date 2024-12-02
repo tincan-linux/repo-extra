@@ -1,0 +1,14 @@
+[meta]
+version = "1.23.1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://gitlab.freedesktop.org/wayland/wayland/-/releases/1.23.1/downloads/wayland-1.23.1.tar.xz"]
+checksums = ["403b31c48beeb88a8d04435b427e2d1fc8e50e81e936b50885325ca9f87ae0db"]
+
+[deps]
+expat = "*"
+libffi = "*"
+
+[mkdeps]
+flex = "*"
+meson = "*"
+pkgconf = "*"

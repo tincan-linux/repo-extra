@@ -1,0 +1,10 @@
+[meta]
+version = "0.43.4"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://x.org/releases/individual/lib/pixman-0.43.4.tar.xz"]
+checksums = ["de50d2f9937106d47d95e915aa8ef54a0af34e0d6b804095452c755e43b0aa34"]
+
+[deps]
+
+[mkdeps]
+meson = "*"

@@ -1,0 +1,6 @@
+#!/bin/sh -e
+
+sed -i 's/ENABLE_XWAYLAND = 1/ENABLE_XWAYLAND = 0/g' config.mk
+
+make PREFIX=/usr
+make PREFIX=/usr DESTDIR=$1 install

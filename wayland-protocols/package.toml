@@ -1,0 +1,11 @@
+[meta]
+version = "1.38"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://gitlab.freedesktop.org/wayland/wayland-protocols/-/releases/1.38/downloads/wayland-protocols-1.38.tar.xz"]
+checksums = ["9426e0ae80dd696fa36cbe9e4b09ac9011bae37cbd70d6499d6db04ab126ec3e"]
+
+[deps]
+
+[mkdeps]
+meson = "*"
+wayland = "*"
