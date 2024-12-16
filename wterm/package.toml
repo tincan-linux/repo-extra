@@ -1,0 +1,15 @@
+[meta]
+version = "6bacd155"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/TornadoCookie/wterm/archive/6bacd15530fade29793688b161d788b9eed3365b.tar.gz"]
+checksums = ["299b6d8da69c948fe25bf9a5cbc5ea2aa1ce29aaeb96c8770e61df3691b49dea"]
+
+[deps]
+fontconfig = "*"
+libdrm = "*"
+libxkbcommon = "*"
+pixman = "*"
+wayland = "*"
+
+[mkdeps]
+pkgconf = "*"

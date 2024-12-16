@@ -1,0 +1,13 @@
+#!/bin/sh -e
+
+patch -p1 < local_tllist.patch
+
+meson setup \
+    -Dprefix=/usr \
+    -Dbuildtype-release \
+    -Djpeg=enabled \
+    -Dpng=enabled \
+    build
+
+ninja -C build
+DESTDIR=$1 ninja -C build install

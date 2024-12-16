@@ -1,0 +1,22 @@
+[meta]
+version = "1.2.0"
+maintainer = "AVS Origami <avs.origami@gmail.com"
+
+sources = [
+    "https://codeberg.org/dnkl/wbg/releases/download/1.2.0/wbg-1.2.0.tar.gz",
+    "https://codeberg.org/dnkl/tllist/raw/commit/8dcb0725c73eee9e350f41a921faf0bcd2ab9920/tllist.h",
+    "files/local_tllist.patch",
+]
+
+checksums = ["f1372e27a87a05cb0c1e3caf87426555decafa6b9846eb22f59e5259187d103e"]
+
+[deps]
+libpng = "*"
+libjpeg-turbo = "*"
+pixman = "*"
+wayland = "*"
+
+
+[mkdeps]
+meson = "*"
+wayland-protocols = "*"
