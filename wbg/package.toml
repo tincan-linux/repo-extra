@@ -8,7 +8,11 @@ sources = [
     "files/local_tllist.patch",
 ]
 
-checksums = ["f1372e27a87a05cb0c1e3caf87426555decafa6b9846eb22f59e5259187d103e"]
+checksums = [
+    "f1372e27a87a05cb0c1e3caf87426555decafa6b9846eb22f59e5259187d103e",
+    "5fde197040f984cd11c5f554ca93c466510973e1680a606306f9a01b8062e309",
+    "b9d8ef6347756bfc84a3528a35d47f6e1f2f12a5c6cfbf4a3a50f7277159affc",
+]
 
 [deps]
 libpng = "*"
