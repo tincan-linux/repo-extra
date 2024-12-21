@@ -1,8 +1,8 @@
 diff --git a/meson.build b/meson.build
-index 7b7e795..6e9fec5 100644
+index eaac74a..a2924c6 100644
 --- a/meson.build
 +++ b/meson.build
-@@ -99,7 +99,6 @@ endif
+@@ -78,7 +78,6 @@ endif
  
  wayland_protocols = dependency('wayland-protocols')
  wayland_client = dependency('wayland-client')
@@ -10,11 +10,15 @@ index 7b7e795..6e9fec5 100644
  
  wayland_protocols_datadir = wayland_protocols.get_variable('pkgdatadir')
  
-@@ -161,6 +160,7 @@ executable(
-     'wbg-features.h',
+@@ -134,9 +133,10 @@ executable(
+     'log.c', 'log.h',
+     'shm.c', 'shm.h',
+     'stride.h',
++    'tllist.h',
      image_format_sources,
      wl_proto_src + wl_proto_headers, version,
-+    include_directories: include_directories('.'),
-     dependencies: [pixman, png, jpg, jxl, jxl_threads, webp, svg, wayland_client, tllist],
+-    dependencies: [pixman, png, jpg, webp, svg, wayland_client, tllist],
++    dependencies: [pixman, png, jpg, webp, svg, wayland_client],
      install: true)
  
+ summary(
