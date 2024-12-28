@@ -1,0 +1,19 @@
+[meta]
+version = "0.18.2"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://gitlab.freedesktop.org/wlroots/wlroots/-/archive/0.18.2/wlroots-0.18.2.tar.gz"]
+checksums = ["bd60136a535403c5836918a60e201dca8bf2dfaf2fcd1c0b5a54a746dafd0883"]
+
+[deps]
+libdrm = "*"
+libinput = "*"
+libudev-zero = "*"
+mesa = "*"
+pixman = "*"
+seatd = "*"
+wayland = "*"
+libxkbcommon = "*"
+
+[mkdeps]
+meson = "*"
+wayland-protocols = "*"

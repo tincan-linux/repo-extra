@@ -1,0 +1,18 @@
+[meta]
+version = "0.9.1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+
+sources = [
+    "https://git.sr.ht/~kennylevinsen/seatd/archive/0.9.1.tar.gz",
+    "files/seatd.run",
+]
+
+checksums = [
+    "0bca2188cb2f56d7d50774657435db9e5ead358854cfbde8c4d7d6504929a49f",
+    "9d1b1f5c6f162c6bb43171154fefd515c666352bfc37406a34c58eb047be252e",
+]
+
+[deps]
+
+[mkdeps]
+meson = "*"

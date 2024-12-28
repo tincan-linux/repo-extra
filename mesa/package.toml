@@ -1,0 +1,20 @@
+[meta]
+version = "24.0.9"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://archive.mesa3d.org/mesa-24.0.9.tar.xz"]
+checksums = ["93f7637561d2921e54527b9a77fa3e53f2e496f82cdf5d6737a6b679c8043b9e"]
+
+[deps]
+expat = "*"
+libdrm = "*"
+libelf = "*"
+wayland = "*"
+
+[mkdeps]
+bison = "*"
+flex = "*"
+meson = "*"
+pkgconf = "*"
+python-mako = "*"
+python-yaml = "*"
+wayland-protocols = "*"
