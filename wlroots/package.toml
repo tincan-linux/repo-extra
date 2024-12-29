@@ -5,6 +5,7 @@ sources = ["https://gitlab.freedesktop.org/wlroots/wlroots/-/archive/0.18.2/wlro
 checksums = ["bd60136a535403c5836918a60e201dca8bf2dfaf2fcd1c0b5a54a746dafd0883"]
 
 [deps]
+libdisplay-info = "*"
 libdrm = "*"
 libinput = "*"
 libudev-zero = "*"

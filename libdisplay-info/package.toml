@@ -1,0 +1,11 @@
+[meta]
+version = "0.2.0"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://gitlab.freedesktop.org/emersion/libdisplay-info/-/archive/0.2.0/libdisplay-info-0.2.0.tar.gz"]
+checksums = ["118dc0d50860fcdfd4841feb883d47967dd2fcf9be2ed416402ad86532b12c48"]
+
+[deps]
+
+[mkdeps]
+hwdata = "*"
+meson = "*"
