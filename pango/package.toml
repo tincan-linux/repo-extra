@@ -1,8 +1,8 @@
 [meta]
-version = "1.90.0"
+version = "1.55.5"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://download.gnome.org/sources/pango/1.90/pango-1.90.0.tar.xz"]
-checksums = ["dfe5ba6ed7c4a52ad6bfa744ee250d8d3953bec4af4e70f50064d0c9b2a6e3e7"]
+sources = ["https://download.gnome.org/sources/pango/1.55/pango-1.55.5.tar.xz"]
+checksums = ["d2ec13b3adc36fba761f44775e2fc714fb31eebb724ce10bb4356a3307185ca1"]
 
 [deps]
 cairo = "*"
