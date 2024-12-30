@@ -4,12 +4,19 @@ mkdir -pv build
 
 meson setup \
     -Dprefix=/usr \
+    -Ddwrite=disabled \
+    -Dfontconfig=enabled \
+    -Dfreetype=enabled \
+    -Dpng=enabled \
+    -Dquartz=disabled \
     -Dtee=enabled \
     -Dxcb=disabled \
     -Dxlib=disabled \
-    -Dxlib-xcb=disabled \
+    -Dzlib=enabled \
     -Dtests=disabled \
+    -Dglib=enabled \
     -Dspectre=disabled \
+    -Dsymbol-lookup=disabled \
     build
 
 ninja -C build
