@@ -1,0 +1,19 @@
+#!/bin/sh -e
+
+mkdir -pv build
+
+meson setup \
+    -Dprefix=/usr \
+    -Dlibexecdir=/usr/lib \
+    -Dlibmount=disabled \
+    -Dinstalled_tests=false \
+    -Ddefault_library=both \
+    -Dman=false \
+    -Dtests=false \
+    -Dlibelf=disabled \
+    -Dnls=disabled \
+    -Dsysprof=disabled \
+    build
+
+ninja -C build
+DESTDIR=$1 ninja -C build install

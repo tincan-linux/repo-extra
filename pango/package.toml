@@ -1,0 +1,14 @@
+[meta]
+version = "1.90.0"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://download.gnome.org/sources/pango/1.90/pango-1.90.0.tar.xz"]
+checksums = ["dfe5ba6ed7c4a52ad6bfa744ee250d8d3953bec4af4e70f50064d0c9b2a6e3e7"]
+
+[deps]
+cairo = "*"
+fontconfig = "*"
+freetype-harfbuzz = "*"
+glib = "*"
+
+[mkdeps]
+meson = "*"

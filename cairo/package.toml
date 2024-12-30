@@ -1,0 +1,15 @@
+[meta]
+version = "1.18.2"
+maintainer = "AVS Origami <avs.origami@gmail.com"
+sources = ["https://cairographics.org/releases/cairo-1.18.2.tar.xz"]
+checksums = ["87aa80e009ba292c6bb0d9192bfa259927e668db366f0cb00823a3247daa4e5b"]
+
+[deps]
+fontconfig = "*"
+freetype-harfbuzz = "*"
+glib = "*"
+libpng = "*"
+pixman = "*"
+
+[mkdeps]
+pkgconf = "*"
