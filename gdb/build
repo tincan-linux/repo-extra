@@ -1,0 +1,12 @@
+#!/bin/sh -e
+
+./configure \
+    --prefix=/usr \
+    --with-system-zlib \
+    --enable-tui \
+    --with-curses \
+    --without-installed-readline \
+    --disable-nls
+
+make
+make DESTDIR=$1 install

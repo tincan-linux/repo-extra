@@ -1,0 +1,9 @@
+[meta]
+version = "15.2"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://ftp.gnu.org/gnu/gdb/gdb-15.2.tar.xz"]
+checksums = ["e930572ca0f9c84310ef87292809d4c8343fcf83b2715fd5f97cdbc26d5809b1"]
+
+[deps]
+
+[mkdeps]
