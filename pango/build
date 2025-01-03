@@ -7,6 +7,7 @@ meson setup \
     -Dgtk_doc=false \
     -Dxft=disabled \
     -Dintrospection=disabled \
+    -Dcairo=enabled \
     build
 
 ninja -C build
