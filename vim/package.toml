@@ -1,0 +1,10 @@
+[meta]
+version = "9.1.0990"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/vim/vim/archive/refs/tags/v9.1.0990.tar.gz"]
+checksums = ["e52367b8be8175d698d4fb0edd5c9c8db8cf6f0a82e4aab157cce112f0b82036"]
+
+[deps]
+ncurses = "*"
+
+[mkdeps]
