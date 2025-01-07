@@ -1,0 +1,12 @@
+[meta]
+version = "8990a83a"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/michaelforney/wld/archive/8990a83a8bb7558a4545a78356d91c19b065011f.tar.gz"]
+checksums = ["a2b9331721f12f79be14830eff39b6f6e1b531b78b324b4c96e8d63eaede52b8"]
+
+[deps]
+fontconfig = "*"
+libdrm = "*"
+pixman = "*"
+
+[mkdeps]
