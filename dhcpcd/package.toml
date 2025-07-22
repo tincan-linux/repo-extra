@@ -1,14 +1,14 @@
 [meta]
-version = "10.1.0"
+version = "10.2.4"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
 
 sources = [
-    "https://github.com/NetworkConfiguration/dhcpcd/archive/refs/tags/v10.1.0.tar.gz",
+    "https://github.com/NetworkConfiguration/dhcpcd/archive/refs/tags/v10.2.4.tar.gz",
     "files/dhcpcd.run",
 ]
 
 checksums = [
-    "7c7261f63aaa813baf6aa4b6d5377a8b23ee526b4d212b955551c6e318957ccf",
+    "60619c2decf7ba6b88751ab506c3444b93527c3ff3fef3c0a8b24a38d746a5f9",
     "b297e83f8b0502066482c5b97925d4dc9cc1a06770b274643bbd11f4fda5a2dc",
 ]
 
