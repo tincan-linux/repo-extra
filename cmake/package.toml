@@ -1,8 +1,8 @@
 [meta]
-version = "3.30.5"
+version = "4.0.3"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://cmake.org/files/v3.30/cmake-3.30.5.tar.gz"]
-checksums = ["dff743f60383aec9db52e756a9eaca8e137a50572b7cc7fa569e6b149f3da5f5"]
+sources = ["https://cmake.org/files/v4.0/cmake-4.0.3.tar.gz"]
+checksums = ["79e05c37fb9ed98fc2b303183eb0c7db0a0bacb6cdf22c988965ba29ce935e39"]
 
 [deps]
 curl = "*"
