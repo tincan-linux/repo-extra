@@ -1,15 +1,15 @@
 [meta]
-version = "2.16"
+version = "3.9"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
 
 sources = [
-    "https://github.com/illiliti/eiwd/releases/download/2.16-1/iwd-2.16.tar.xz",
+    "https://github.com/ioraff/eiwd/releases/download/3.9-1/iwd-3.9.tar.xz",
     "files/eiwd.run",
     "files/iwd_passphrase",
 ]
 
 checksums = [
-    "76c979524beaed639115fb90f9ce95ea7697b098d788f82ca80a618bea17871d",
+    "8e5d9ad64e0838f263ba220da9974e1f73f6233470e0b1fa66a22299c7148dbe",
     "071bb8346dfdf8d2de99f3eb336bfe1939660dc58b3946839a629666d7555265",
     "86cb101ce959f6503b2421be00a2a49774addecf277af79455ff71c12f8193d9",
 ]
