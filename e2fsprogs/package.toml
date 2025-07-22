@@ -1,8 +1,8 @@
 [meta]
-version = "1.47.1"
+version = "1.47.3"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://kernel.org/pub/linux/kernel/people/tytso/e2fsprogs/v1.47.1/e2fsprogs-1.47.1.tar.xz"]
-checksums = ["c525141da50fbdf0241638d6c08b643600d88d9692fb18947c60e653996e9f2b"]
+sources = ["https://kernel.org/pub/linux/kernel/people/tytso/e2fsprogs/v1.47.3/e2fsprogs-1.47.3.tar.xz"]
+checksums = ["bf3c64fb23a57d6c4c07bae0c9771cb0cf59ce30a879051ebb3bcbce04e3f1bc"]
 
 [deps]
 
