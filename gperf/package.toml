@@ -1,8 +1,8 @@
 [meta]
-version = "3.1"
+version = "3.3"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["http://ftp.gnu.org/pub/gnu/gperf/gperf-3.1.tar.gz"]
-checksums = ["7023ada08089bb46d7c000af7a6eaded9b4cf0ec2d1018d28a1a1425a4ec5680"]
+sources = ["http://ftp.gnu.org/pub/gnu/gperf/gperf-3.3.tar.gz"]
+checksums = ["6ad90515e3b8ac191a8ecef4e75fbb260236f8e78078ac099d5eccc175af0782"]
 
 [deps]
 
