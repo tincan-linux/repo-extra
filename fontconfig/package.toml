@@ -1,14 +1,14 @@
 [meta]
-version = "2.15.0"
+version = "2.16.0"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
 
 sources = [
-    "https://freedesktop.org/software/fontconfig/release/fontconfig-2.15.0.tar.xz",
+    "https://freedesktop.org/software/fontconfig/release/fontconfig-2.16.0.tar.xz",
     "files/fcobjshash.h",
 ]
 
 checksums = [
-    "f724c512a04997f17bc7dba807a6a58c2e8178d013bde56fab2fa579f7c50bdf",
+    "5c95d48f5b9150f4a06d8acac12c25edaac956007df95a3bf527df02a5908f0e",
     "b38c8d795156466ec2fbbf24f6599ae363400e0da3d4f7cef16e416b0a3991ae",
 ]
 
