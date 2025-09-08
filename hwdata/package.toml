@@ -1,8 +1,8 @@
 [meta]
-version = "0.390"
+version = "0.399"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://github.com/vcrhonek/hwdata/archive/refs/tags/v0.390.tar.gz"]
-checksums = ["24932988aaf848673fc5cec0911b27495f9a20d69d14851c1c1c4e279c131fee"]
+sources = ["https://github.com/vcrhonek/hwdata/archive/refs/tags/v0.399.tar.gz"]
+checksums = ["59583a49a6bb8a401d64990b0ffc2717b66782bad77309913dfb0e8d1fc4a0ef"]
 
 [deps]
 
