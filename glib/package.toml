@@ -1,8 +1,8 @@
 [meta]
-version = "2.83.2"
+version = "2.86.0"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://download.gnome.org/sources/glib/2.83/glib-2.83.2.tar.xz"]
-checksums = ["ad3f8e17a2fc62ff5b490cd42b4095e5ae4c7da1c5dbc1eddd2117e4a4e3ca13"]
+sources = ["https://download.gnome.org/sources/glib/2.86/glib-2.86.0.tar.xz"]
+checksums = ["40ea9a197324bb7cf8da7471e147e1e19a868c86b2521d3b4e9361f8f488ef69"]
 
 [deps]
 libffi = "*"
