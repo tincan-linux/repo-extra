@@ -1,8 +1,8 @@
 [meta]
-version = "2.6.3"
+version = "2.7.1"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://github.com/libexpat/libexpat/releases/download/R_2_6_3/expat-2.6.3.tar.bz2"]
-checksums = ["253e03c7042908c2c4c84fb4917a01203ad403fa09320f44cca5fa017064c403"]
+sources = ["https://github.com/libexpat/libexpat/releases/download/R_2_7_1/expat-2.7.1.tar.bz2"]
+checksums = ["81f97345a3e9d2b8a011008e3e5c8425abef1b919136c98e1356e343eb1adfb2"]
 
 [deps]
 
