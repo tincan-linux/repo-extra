@@ -1,15 +1,15 @@
 [meta]
-version = "1.2.0"
+version = "1.3.0"
 maintainer = "AVS Origami <avs.origami@gmail.com"
 
 sources = [
-    "https://codeberg.org/dnkl/wbg/releases/download/1.2.0/wbg-1.2.0.tar.gz",
+    "https://codeberg.org/dnkl/wbg/releases/download/1.3.0/wbg-1.3.0.tar.gz",
     "https://codeberg.org/dnkl/tllist/raw/commit/8dcb0725c73eee9e350f41a921faf0bcd2ab9920/tllist.h",
     "files/local_tllist.patch",
 ]
 
 checksums = [
-    "f1372e27a87a05cb0c1e3caf87426555decafa6b9846eb22f59e5259187d103e",
+    "74db99c2b174b8f16f34762badbd7f79cb85f23c4099db2e884f75f58071e62b",
     "5fde197040f984cd11c5f554ca93c466510973e1680a606306f9a01b8062e309",
     "3a2e984e03cb6a99b181f7004482243e9f61dc7945d9b58daaf9caefba05eb45",
 ]
