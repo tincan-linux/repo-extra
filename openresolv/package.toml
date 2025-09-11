@@ -1,8 +1,8 @@
 [meta]
-version = "3.13.2"
+version = "3.17.0"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://github.com/NetworkConfiguration/openresolv/archive/refs/tags/v3.13.2.tar.gz"]
-checksums = ["d81d17de985d5eb8f9e175d47d9af9f0a0122ab9547ac8ee969da795f616a8af"]
+sources = ["https://github.com/NetworkConfiguration/openresolv/archive/refs/tags/v3.17.0.tar.gz"]
+checksums = ["b6898ef27e4dc2147e5eb633ff8583bff84851b0c061290514ed6df8f722dfff"]
 
 [deps]
 
