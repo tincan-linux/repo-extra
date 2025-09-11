@@ -1,8 +1,8 @@
 [meta]
-version = "10.44"
+version = "10.46"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.44/pcre2-10.44.tar.gz"]
-checksums = ["e7d4df8cd77e139e9f6b6284c2b13cdc90805c5345c81bb2137ff5279921eae5"]
+sources = ["https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.46/pcre2-10.46.tar.gz"]
+checksums = ["ef0da79382f6e7345f90e278650f757f92bc46886f85d6df088e8a8bf748b121"]
 
 [deps]
 
