@@ -1,8 +1,8 @@
 [meta]
-version = "0.43.4"
+version = "0.46.4"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://x.org/releases/individual/lib/pixman-0.43.4.tar.xz"]
-checksums = ["de50d2f9937106d47d95e915aa8ef54a0af34e0d6b804095452c755e43b0aa34"]
+sources = ["https://x.org/releases/individual/lib/pixman-0.46.4.tar.xz"]
+checksums = ["da5c9b8ced71dce29fb5a1e393564cf32b8882368997d6705442f8e72524bf28"]
 
 [deps]
 
