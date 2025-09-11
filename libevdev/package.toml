@@ -1,8 +1,8 @@
 [meta]
-version = "1.13.3"
+version = "1.13.4"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://freedesktop.org/software/libevdev/libevdev-1.13.3.tar.xz"]
-checksums = ["7154159ecc390d8ebda7f8b95ecf02acd86fc5ddce072020d6e84de142614ae1"]
+sources = ["https://freedesktop.org/software/libevdev/libevdev-1.13.4.tar.xz"]
+checksums = ["f5b544de356cb65ff9e1c63e8eb1f53b1e421f32ac064f764a69927f57f91905"]
 
 [deps]
 
