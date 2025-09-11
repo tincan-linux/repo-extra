@@ -1,8 +1,8 @@
 [meta]
-version = "1.6.0"
+version = "1.9.0"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://github.com/mesonbuild/meson/releases/download/1.6.0/meson-1.6.0.tar.gz"]
-checksums = ["33d6485a5b2e2f7ac5a211a3cf4d1ce02d5d0b4cbf0b1f817210557f36efe931"]
+sources = ["https://github.com/mesonbuild/meson/releases/download/1.9.0/meson-1.9.0.tar.gz"]
+checksums = ["f9e24269c1424b865881d02c92aeff9e0e0cd5fe173e2a230249b8f28215f051"]
 
 [deps]
 python = "*"
