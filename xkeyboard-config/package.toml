@@ -1,8 +1,8 @@
 [meta]
-version = "2.43"
+version = "2.45"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://x.org/releases/individual/data/xkeyboard-config/xkeyboard-config-2.43.tar.xz"]
-checksums = ["f8602628ce669ba7d18cb4c754a19b77344a1742dfd4fd979cc8e0723a6548e0"]
+sources = ["https://x.org/releases/individual/data/xkeyboard-config/xkeyboard-config-2.45.tar.xz"]
+checksums = ["e812e49e26ae36f57508a60e483c42047cda8415a507bf8d4aba99a1ea85c552"]
 
 [deps]
 compose-tables = "*"
