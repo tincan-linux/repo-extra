@@ -1,8 +1,8 @@
 [meta]
-version = "1.26.2"
+version = "1.29.1"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://gitlab.freedesktop.org/libinput/libinput/-/archive/1.26.2/libinput-1.26.2.tar.gz"]
-checksums = ["73b0936fe2c22fc5c0f307089a7debbb46b051bcda400fab5af80f7b9dd37b10"]
+sources = ["https://gitlab.freedesktop.org/libinput/libinput/-/archive/1.29.1/libinput-1.29.1.tar.gz"]
+checksums = ["87e59a03831e0b3e825f8cdf46ba3acfe98f68a62eabf0d5547b5085ce1767b7"]
 
 [deps]
 libevdev= "*"
