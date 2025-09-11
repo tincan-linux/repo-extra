@@ -1,8 +1,8 @@
 [meta]
-version = "1.7.0"
+version = "1.11.0"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://xkbcommon.org/download/libxkbcommon-1.7.0.tar.xz"]
-checksums = ["5001ca0b8562feeef2010bf16c05657e3875fda3ed5fdedbf48b9135e5cdfcbc"]
+sources = ["https://github.com/xkbcommon/libxkbcommon/archive/refs/tags/xkbcommon-1.11.0.tar.gz"]
+checksums = ["fe285c256f8550d2f9e9b7ad883ea0939a0f824019355309315cfa2df3f423d5"]
 
 [deps]
 wayland = "*"
