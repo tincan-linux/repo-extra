@@ -1,8 +1,8 @@
 [meta]
-version = "2.2.0"
+version = "2.5.1"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://distfiles.ariadne.space/pkgconf/pkgconf-2.2.0.tar.xz"]
-checksums = ["7ee71f9cc9a987d4c8f61b781f3c9f538a128bd8a99a064515899449375ab50e"]
+sources = ["https://distfiles.ariadne.space/pkgconf/pkgconf-2.5.1.tar.xz"]
+checksums = ["c524d73c938e7382d3c12c9cfba16ed32ee092ab21b3e9659a095b5628ea2e88"]
 
 [deps]
 
