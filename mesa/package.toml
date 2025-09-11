@@ -1,8 +1,8 @@
 [meta]
-version = "24.0.9"
+version = "25.2.2"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://archive.mesa3d.org/mesa-24.0.9.tar.xz"]
-checksums = ["93f7637561d2921e54527b9a77fa3e53f2e496f82cdf5d6737a6b679c8043b9e"]
+sources = ["https://archive.mesa3d.org/mesa-25.2.2.tar.xz"]
+checksums = ["a91389fdbddacaa5907e2208b1ba1b7de060ecca5e0dfde1961d2f0562db9cb1"]
 
 [deps]
 expat = "*"
