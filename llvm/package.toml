@@ -1,0 +1,20 @@
+[meta]
+version = "21.1.1"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+
+sources = [
+    "https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.1/llvm-21.1.1.src.tar.xz",
+    "files/musl-stack-size.patch"
+]
+
+checksums = [
+    "894b21eded566aade0b2f53b8750d516fedb8a596dae5c579b5a8f7dc0e41b23",
+    "0d07fa60b6672ac154cf9ef3221d42c2d7da02d65e4724f131d82109b929739f",
+]
+
+[deps]
+zlib = "*"
+
+[mkdeps]
+cmake = "*"
+python = "*"
