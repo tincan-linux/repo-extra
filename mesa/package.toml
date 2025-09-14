@@ -13,6 +13,7 @@ wayland = "*"
 [mkdeps]
 bison = "*"
 flex = "*"
+llvm = "*"
 meson = "*"
 pkgconf = "*"
 python-mako = "*"
