@@ -4,7 +4,7 @@ export DESTDIR="$1"
 
 patch -p1 < musl-stack-size.patch
 
-cmake -S llvm -B build -G Ninja \
+cmake -B build -G Ninja \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DCMAKE_BUILD_TYPE=Release \
     -DLLVM_BUILD_LLVM_DYLIB=ON \
