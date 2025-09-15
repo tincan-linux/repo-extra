@@ -22,6 +22,7 @@ meson setup \
     -Dplatforms=wayland \
     -Dglx=disabled \
     -Degl=enabled \
+    -Dllvm=disabled \
     -Dvalgrind=false \
     -Dzstd=disabled \
     -Dglvnd="${glvnd_enabled:-true}" \
