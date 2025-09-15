@@ -2,14 +2,14 @@
 
 export DESTDIR="$1"
 
-mkdir llvm
+mkdir -pv llvm
 tar xf llvm-$2.src.tar.xz -C llvm --strip-components=1
 
-mkdir cmake
+mkdir -pv cmake
 tar xf cmake-$2.src.tar.xz -C cmake --strip-components=1
 
 cd llvm
-patch -p1 < musl-stack-size.patch
+patch -p1 < ../musl-stack-size.patch
 
 cmake -B build -G Ninja \
     -DCMAKE_INSTALL_PREFIX=/usr \
