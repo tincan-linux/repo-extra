@@ -1,8 +1,8 @@
 [meta]
-version = "20.1.8"
+version = "21.1.1"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/libclc-20.1.8.src.tar.xz"]
-checksums = ["07e9d6b8343048f9c974befd63a98ff24b88ac4b723e00b038fffe0f0cc0e452"]
+sources = ["https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.1/libclc-21.1.1.src.tar.xz"]
+checksums = ["a3ad1a96b1ec801e845f934ec16426c5a128df4fdd9cfaab990434d7a9ef653a"]
 
 [deps]
 
