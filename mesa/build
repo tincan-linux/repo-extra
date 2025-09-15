@@ -19,10 +19,10 @@ meson setup \
     -Dlocalstatedir=/var \
     -Dbuildtype=release \
     -Dglx-read-only-text=true \
-    -Dplatforms=wayland \
-    -Dglx=disabled \
-    -Degl=enabled \
     -Dllvm=disabled \
+    -Dplatforms=wayland \
+    -Dglx=auto \
+    -Degl=enabled \
     -Dvalgrind=false \
     -Dzstd=disabled \
     -Dglvnd="${glvnd_enabled:-true}" \
