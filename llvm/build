@@ -8,6 +8,9 @@ tar xf llvm-$2.src.tar.xz -C llvm --strip-components=1
 mkdir -pv cmake
 tar xf cmake-$2.src.tar.xz -C cmake --strip-components=1
 
+mkdir -pv third-party
+tar xf third-party-$2.src.tar.xz -C third-party --strip-components=1
+
 cd llvm
 patch -p1 < ../musl-stack-size.patch
 
