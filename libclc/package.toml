@@ -1,0 +1,12 @@
+[meta]
+version = "20.1.8"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/libclc-20.1.8.src.tar.xz"]
+checksums = ["07e9d6b8343048f9c974befd63a98ff24b88ac4b723e00b038fffe0f0cc0e452"]
+
+[deps]
+
+[mkdeps]
+cmake = "*"
+llvm = "*"
+spirv-llvm-translator = "*"

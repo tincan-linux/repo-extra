@@ -1,0 +1,12 @@
+[meta]
+version = "20.1.5"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/KhronosGroup/SPIRV-LLVM-Translator/archive/v20.1.5/SPIRV-LLVM-Translator-20.1.5.tar.gz"]
+checksums = ["3d6d9ca232c2cea626d205bfa6a037c046988f8ab7917b754e0d1e1437d65ab3"]
+
+[deps]
+llvm = "*"
+spirv-tools = "*"
+
+[mkdeps]
+cmake = "*"

@@ -1,0 +1,11 @@
+[meta]
+version = "1.4.321.0"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+sources = ["https://github.com/KhronosGroup/SPIRV-Tools/archive/vulkan-sdk-1.4.321.0/SPIRV-Tools-vulkan-sdk-1.4.321.0.tar.gz"]
+checksums = ["2fc080cabfdc02eb09f7f8eeafcb50e21df60756a1415dc482f8e6118067b37a"]
+
+[deps]
+
+[mkdeps]
+cmake = "*"
+spirv-headers = "*"
