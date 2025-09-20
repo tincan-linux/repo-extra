@@ -1,0 +1,19 @@
+[meta]
+version = "20.1.8"
+maintainer = "AVS Origami <avs.origami@gmail.com>"
+
+sources = [
+    "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/clang-20.1.8.src.tar.xz",
+    "files/musl-targets.patch"
+]
+
+checksums = [
+    "c98c4accee41427a923ff2d02e952621b423ccde742038dcdd7f45c9c2de628e",
+    "4e36a6fa62dde7ffaa6bee55960e29c2e4cd761ec41405e0813ced50f28333a7",
+]
+
+[deps]
+llvm = "*"
+
+[mkdeps]
+cmake = "*"

@@ -12,6 +12,7 @@ wayland = "*"
 
 [mkdeps]
 bison = "*"
+clang = "*"
 flex = "*"
 libclc = "*"
 llvm = "*"
