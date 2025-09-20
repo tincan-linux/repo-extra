@@ -1,8 +1,8 @@
 [meta]
-version = "1.38"
+version = "1.45"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://gitlab.freedesktop.org/wayland/wayland-protocols/-/releases/1.38/downloads/wayland-protocols-1.38.tar.xz"]
-checksums = ["9426e0ae80dd696fa36cbe9e4b09ac9011bae37cbd70d6499d6db04ab126ec3e"]
+sources = ["https://gitlab.freedesktop.org/wayland/wayland-protocols/-/releases/1.45/downloads/wayland-protocols-1.45.tar.xz"]
+checksums = ["df6c5cac2696aaed69cfe5af420fb3e0e05687a34d429e507278e9ab85aecbe9"]
 
 [deps]
 
