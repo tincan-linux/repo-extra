@@ -9,7 +9,7 @@ mkdir -pv cmake
 tar xf cmake-$2.src.tar.xz -C cmake --strip-components=1
 
 cd clang
-patch -p1 < musl-targets.patch
+patch -p1 < ../musl-targets.patch
 
 cmake -B build \
     -DCMAKE_INSTALL_PREFIX=/usr \
