@@ -1,8 +1,8 @@
 [meta]
-version = "21.1.0"
+version = "20.1.5"
 maintainer = "AVS Origami <avs.origami@gmail.com>"
-sources = ["https://github.com/KhronosGroup/SPIRV-LLVM-Translator/archive/v21.1.0/SPIRV-LLVM-Translator-21.1.0.tar.gz"]
-checksums = ["ca8600a6f57b127a12bffac8b73cd4f7139b87aaec0eda5615f3c2b09ed5be5f"]
+sources = ["https://github.com/KhronosGroup/SPIRV-LLVM-Translator/archive/v20.1.5/SPIRV-LLVM-Translator-20.1.5.tar.gz"]
+checksums = ["3d6d9ca232c2cea626d205bfa6a037c046988f8ab7917b754e0d1e1437d65ab3"]
 
 [deps]
 llvm = "*"
