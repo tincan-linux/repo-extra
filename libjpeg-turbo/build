@@ -8,6 +8,7 @@ cmake -B build \
     -D CMAKE_BUILD_TYPE=Release \
     -D CMAKE_SHARED_LIBS=True \
     -D CMAKE_SKIP_INSTALL_RPATH=ON \
+    -D CMAKE_POLICY_VERSION_MINIMUM=3.5 \
     -D WITH_JPEG8=1
 
 cmake --build   build
