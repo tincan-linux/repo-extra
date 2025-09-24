@@ -4,7 +4,7 @@ patch -p1 < local_tllist.patch
 
 meson setup \
     -Dprefix=/usr \
-    -Dbuildtype-release \
+    -Dbuildtype=release \
     -Djpeg=enabled \
     -Dpng=enabled \
     build
